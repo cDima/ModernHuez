@@ -19,3 +19,7 @@ C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\ModernHue_MarkupCompile.cache
 C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\ModernHue.g.resources
 C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\ModernHue.exe
 C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\ModernHue.pdb
+C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\Interop.iTunesLib.dll
+C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\ModernHue.csproj.ResolveComReference.cache
+C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\Pages\Player.baml
+C:\proj\ModernHue\ModernHue\ModernHue\obj\Debug\Pages\Player.g.cs

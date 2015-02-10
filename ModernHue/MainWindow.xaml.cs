@@ -1,4 +1,5 @@
 ﻿using System.Windows.Controls;
+using CefSharp;
 using FirstFloor.ModernUI.Windows.Controls;
 
 namespace ModernHue
@@ -11,6 +12,22 @@ namespace ModernHue
         public MainWindow()
         {
             InitializeComponent();
+            
+            if (!Cef.IsInitialized)
+            {
+                Cef.Initialize();
+                /*
+                    new CefSettings()
+                { 
+                FileAccessFromFileUrlsAllowed = true,
+                UniversalAccessFromFileUrlsAllowed = true,
+                TextAreaResizeDisabled = true,
+                    
+                });*/
+            }
+
         }
+
+
     }
 }

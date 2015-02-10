@@ -1,5 +1,6 @@
 ﻿<UserControl x:Class="ModernHue.Pages.Settings.About"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
@@ -10,6 +11,39 @@
             <StackPanel MinWidth="200">
                 <TextBlock Text="ABOUT" Style="{StaticResource Heading2}" />
                 <TextBlock Text="TODO: provide information about the software" Margin="0,0,0,8" TextWrapping="Wrap" />
+                <mui:BBCodeBlock BBCode="
+[b]Ambieye[/b] is a comprehensive solution to control digitally connected lighting, such as the Philips Hue.
+
+
+[list]
+[*][url=http://bit.ly/lightpro]Lightswitch[/url] is a browser extension to control the Philip Hue lights easily from Chrome.
+                                 
+[*][url=http://bit.ly/shinehue]Shine[/url] is an apo for Mac, PC, Linux, Chromebooks to control Philip Hue lights. 
+                                 
+[*][url=http://ambieye.com/]Ambieye.com[/url] is an online portal for controlling lights from the browser.
+[/list]
+                                 
+                                 
+                                 [b]Setup[/b]
+
+1. After installing you will need connectivity to Philips Hue MeetHue.com Portal, or you can enter an IP address of the bridge yourself.
+2. When the bridge is found, you see the 'press the link button' message - press the middle button on the bridge to authenticate the extension. 
+3. Control your lights from while on the same WiFi network! About Philip Hue lightsTo use this app you would have to buy and setup the [url=http://bit.ly/lightswitchhue]Philips Hue starter kit[/url]. 
+
+
+The Hue lights are digitally controlled lights using WiFi and Zigbee protocols. 
+                                 For updates, bugs and ideas, please contact apistarter@gmail.com, 
+                                 [url=http://sadakov.com/]http://sadakov.com[/url], or on tweeter at [url=http://twitter.com/ambieye]@ambieye[/url].
+
+
+I would love to hear feedback and your ideas!A free version of the [url=http://bit.ly/huelights]Lightswitch for Chrome[/url] is available. Thanks for the contribution to home automation and your time!
+
+
+Made in ♥ New York City by Dmitry Sadakov.
+                                 
+                                 
+                                 ">
+                </mui:BBCodeBlock>
             </StackPanel>
         </ScrollViewer>
     </Grid>
