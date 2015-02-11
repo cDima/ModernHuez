@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\proj\ModernHue\ModernHue\ModernHue\obj\x86\Debug\
+C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\
 ModernHue
 none
 false
 DEBUG;TRACE
-C:\proj\ModernHue\ModernHue\ModernHue\App.xaml
+C:\Projects\ModernHuez\ModernHue\App.xaml
 6-2068156328
 1-778734874
 10804644635
-171324582023
+171020237531
 MainWindow.xaml;Pages\Player.xaml;Pages\Settings\About.xaml;Pages\Settings\Appearance.xaml;Pages\Home.xaml;Pages\SettingsPage.xaml;
 
 False

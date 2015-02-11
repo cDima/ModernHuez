@@ -9,41 +9,16 @@
     <Grid>
         <ScrollViewer>
             <StackPanel MinWidth="200">
-                <TextBlock Text="ABOUT" Style="{StaticResource Heading2}" />
-                <TextBlock Text="TODO: provide information about the software" Margin="0,0,0,8" TextWrapping="Wrap" />
-                <mui:BBCodeBlock BBCode="
-[b]Ambieye[/b] is a comprehensive solution to control digitally connected lighting, such as the Philips Hue.
-
-
-[list]
-[*][url=http://bit.ly/lightpro]Lightswitch[/url] is a browser extension to control the Philip Hue lights easily from Chrome.
+                <TextBlock Text="ambieye" Style="{StaticResource Heading2}" />
+                <mui:BBCodeBlock Margin="0,10,0,0" BBCode="[b]Ambieye[/b] is a comprehensive solution to control digitally connected lighting, such as the Philips Hue." />
+                <mui:BBCodeBlock Margin="0,10,0,0" BBCode="[list][*]• [url=http://bit.ly/lightpro]Lightswitch[/url] is a browser extension for Chrome.
                                  
-[*][url=http://bit.ly/shinehue]Shine[/url] is an apo for Mac, PC, Linux, Chromebooks to control Philip Hue lights. 
-                                 
-[*][url=http://ambieye.com/]Ambieye.com[/url] is an online portal for controlling lights from the browser.
-[/list]
-                                 
-                                 
-                                 [b]Setup[/b]
-
-1. After installing you will need connectivity to Philips Hue MeetHue.com Portal, or you can enter an IP address of the bridge yourself.
-2. When the bridge is found, you see the 'press the link button' message - press the middle button on the bridge to authenticate the extension. 
-3. Control your lights from while on the same WiFi network! About Philip Hue lightsTo use this app you would have to buy and setup the [url=http://bit.ly/lightswitchhue]Philips Hue starter kit[/url]. 
-
-
-The Hue lights are digitally controlled lights using WiFi and Zigbee protocols. 
-                                 For updates, bugs and ideas, please contact apistarter@gmail.com, 
-                                 [url=http://sadakov.com/]http://sadakov.com[/url], or on tweeter at [url=http://twitter.com/ambieye]@ambieye[/url].
-
-
-I would love to hear feedback and your ideas!A free version of the [url=http://bit.ly/huelights]Lightswitch for Chrome[/url] is available. Thanks for the contribution to home automation and your time!
-
-
-Made in ♥ New York City by Dmitry Sadakov.
-                                 
-                                 
-                                 ">
-                </mui:BBCodeBlock>
+                                 [*] • [url=http://bit.ly/shinehue]Shine[/url] is an apo for Mac, PC, Linux, Chromebooks.
+                                     
+                                 [*] • [url=http://ambieye.com/]Ambieye.com[/url] is an online portal for the browser.[/list]" />
+                <mui:BBCodeBlock Margin="0,10,0,0" BBCode="For updates, bugs and ideas, please contact apistarter@gmail.com or on twitter at [url=http://twitter.com/ambieye]@ambieye[/url]. I would love to hear feedback and your ideas."  />
+                <mui:BBCodeBlock Margin="0,10,0,0" BBCode="A free version of the [url=http://bit.ly/huelights]Lightswitch for Chrome[/url] is available. Thanks for the contribution to home automation and your time!" />
+                <mui:BBCodeBlock Margin="0,10,0,0" BBCode="Made in ♥ New York City by [url=http://sadakov.com/]Dmitry Sadakov[/url]." />
             </StackPanel>
         </ScrollViewer>
     </Grid>
