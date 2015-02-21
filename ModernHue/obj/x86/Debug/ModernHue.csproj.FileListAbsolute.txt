@@ -66,3 +66,5 @@ C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\App.g.cs
 C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue_Content.g.cs
 C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue_MarkupCompile.cache
 C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue.g.resources
+C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue_MarkupCompile.lref

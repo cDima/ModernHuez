@@ -1,6 +1,8 @@
 ﻿using System.Windows.Controls;
 using CefSharp;
 using FirstFloor.ModernUI.Windows.Controls;
+using System;
+using System.IO;
 
 namespace ModernHue
 {
@@ -15,19 +17,16 @@ namespace ModernHue
             
             if (!Cef.IsInitialized)
             {
-                Cef.Initialize();
-                /*
-                    new CefSettings()
+                var settings = new CefSettings()
                 { 
-                FileAccessFromFileUrlsAllowed = true,
-                UniversalAccessFromFileUrlsAllowed = true,
-                TextAreaResizeDisabled = true,
-                    
-                });*/
+                };
+                settings.CefCommandLineArgs.Add("disable-web-security", "1");
+                
+                Cef.Initialize(settings);
+                
             }
 
         }
-
 
     }
 }

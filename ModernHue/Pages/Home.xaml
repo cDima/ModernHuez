@@ -8,9 +8,9 @@
              d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
     <Grid Name="BaseGrid">
         <!-- Style="{StaticResource ContentRoot}"  -->
-      <cefSharp:ChromiumWebBrowser Grid.Row="0" 
+      <cefSharp:ChromiumWebBrowser Grid.Row="0"  
                           Name="Browser" 
                           WebBrowser="{Binding WebBrowser, Mode=OneWayToSource}"
-                          Title="{Binding Title, Mode=TwoWay}" Margin="0,0,40,0" />
+                          Title="{Binding Title, Mode=TwoWay}" Margin="0,0,0,0" />
     </Grid>
 </UserControl>
