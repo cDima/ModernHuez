@@ -118,3 +118,6 @@
 [0221/143243:ERROR:power_data_provider_ia_win.cc(72)] Power Data Provider initialize failed!
 [0221/143258:ERROR:renderer_main.cc(227)] Running without renderer sandbox
 [0221/143551:ERROR:power_data_provider_ia_win.cc(72)] Power Data Provider initialize failed!
+[0221/232038:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0221/232038:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0221/232039:ERROR:power_data_provider_ia_win.cc(72)] Power Data Provider initialize failed!
