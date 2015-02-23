@@ -82,3 +82,4 @@ C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\MainWindow.baml
 C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue.g.resources
 C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue.exe
 C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue.pdb
+C:\Projects\ModernHuez\ModernHue\obj\x86\Debug\ModernHue.csprojResolveAssemblyReference.cache

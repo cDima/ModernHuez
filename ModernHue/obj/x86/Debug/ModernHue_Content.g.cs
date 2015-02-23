@@ -9,5 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("libcef.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("material-icon-32.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("material-icon-64.ico")]
 
 
