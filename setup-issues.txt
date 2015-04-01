@@ -1,0 +1,8 @@
+setup issues:
+- uac publisher is Unknown
+- inno setup blue icon should be mine
+- background image can be updated.
+
+
+Perhaps change the startup middle of screen, and not just usual top left.
+Company and app name are both Ambieye for Philips Hue, perhaps change it.

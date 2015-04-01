@@ -59,6 +59,15 @@
   <PropertyGroup>
     <ApplicationIcon>material-icon-32.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ambieye_signature.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FirstFloor.ModernUI">
       <HintPath>..\packages\ModernUI.WPF.1.0.6\lib\net45\FirstFloor.ModernUI.dll</HintPath>
@@ -135,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AmbieyeForWindows.0.1.5.nupkg" />
+    <None Include="ambieye_signature.snk" />
     <None Include="app.config" />
     <None Include="icudtl.dat" />
     <None Include="packages.config" />

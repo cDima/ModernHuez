@@ -10,7 +10,6 @@
 //------------------------------------------------------------------------------
 
 using CefSharp.Wpf;
-using ModernHue.Pages;
 using System;
 using System.Diagnostics;
 using System.Windows;
