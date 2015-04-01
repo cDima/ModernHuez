@@ -15,6 +15,8 @@ namespace ModernHue
         {
             InitializeComponent();
             
+            
+
             if (!Cef.IsInitialized)
             {
                 var settings = new CefSettings()
